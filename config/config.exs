@@ -5,7 +5,7 @@ config :logger,
   default_handler: false,
   level: :info
 
-config :logger, LoggerBackends.Console, level: :error
+config :logger, LoggerBackends.Console, level: :warning
 
 config :logger, LoggerBackends.SQL,
   level: :debug,
