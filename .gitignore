@@ -24,3 +24,4 @@ logging_default_handler-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+*.sqlite
